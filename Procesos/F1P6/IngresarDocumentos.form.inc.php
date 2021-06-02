@@ -1,5 +1,5 @@
 <div class="cuerpoP2F1">
-	<h2>VERIFIQUE SU DOCUMENTACION ANTES DEL ENVIO</h2>
+	<h2>VERIFIQUE LOS DOCUMENTACION ANTES DEL ENVIO</h2>
 	<div class="cuerpoP2F1c">
 		<div class="img_documento">
 			<img src="<?php echo $ci ?>">

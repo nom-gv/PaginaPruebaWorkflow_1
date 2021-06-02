@@ -1,38 +1,43 @@
-<div>
-	<div>
+<div class="cuerpoP1F1">
+	<div class="InscripcionSeccion">
 		<h2>Fecha de Inscripción</h2>
+		<input type="text" name="fecha_inc" value="<?php echo $fecha_inc?>" disabled>
 	</div>
-	<div>
+	<div class="datosRequisitos">
 		<div>
-			<h2>Información del Estudiante</h2>
-			<div>
-				<h3>Nombre</h3>
-				<p></p>
+			<div class="subtituloRequisito">
+				<h2>Información del Estudiante</h2>
 			</div>
-			<div>
-				<h3>CI</h3>
-				<p></p>
+			<div class="datosEstudiantes">
+				<label>Nombre</label>
+				<input type="text" name="nombre" value="<?php echo $nombre?>" disabled>
 			</div>
-			<div>
-				<h3>Fecha de Nacimiento</h3>
-				<p></p>
+			<div class="datosEstudiantes">
+				<label>CI</label>
+				<input type="text" name="ci" value="<?php echo $usuario?>" disabled>
+			</div>
+			<div class="datosEstudiantes">
+				<label>Fecha de Nacimiento</label>
+				<input type="text" name="fecha_nac" value="<?php echo $fecha_nac?>" disabled>
 			</div>
 		</div>
 
 		<div>
-			<h2>Documentos Requeridos</h2>
-			<p>(Debe escanear sus documentos y subirlos en formato imagen (.jpg). Deben presentarse antes de la fecha de Inscripción)</p>
-			<div>
-				<p>Cedula de Identidad</p>
+			<div class="subtituloRequisito">
+				<h2>Documentos Requeridos</h2>
+				<p>(Debe escanear sus documentos y subirlos en formato imagen (.jpg).<br/>Deben presentarse antes de la fecha de Inscripción)</p>
 			</div>
-			<div>
-				<p>Certificado de Habilitación</p>
+			<div class="datosEstudiantes">
+				<input type="text" name="cedula" value="Cedula de Identidad" disabled>
 			</div>
-			<div>
-				<p>Certificado de Nacimiento Original</p>
+			<div class="datosEstudiantes">
+				<input type="text" name="habilitacion" value="Certificado de Habilitación" disabled>
 			</div>
-			<div>
-				<p>Fotocopia Legalizada de Titulo de Bachiller</p>
+			<div class="datosEstudiantes">
+				<input type="text" name="nacimiento" value="Certificado de Nacimiento Original" disabled>
+			</div>
+			<div class="datosEstudiantes">
+				<input type="text" name="bachiller" value="Fotocopia Legalizada de Titulo de Bachiller" disabled>
 			</div>
 		</div>
 	</div>

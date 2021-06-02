@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Pagina Seguimiento</title>
-	<link rel="stylesheet" type="text/css" href="Estilos/Style.css">
+	<link rel="stylesheet" type="text/css" href="../Estilos/Style.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap" rel="stylesheet">
 </head>
@@ -11,4 +11,13 @@
 	<header>
 		<h1>SISTEMA DE SEGUIMIENTO</h1>
 	</header>
-	<main class="cuerpoI">
+	<nav>
+		<ul>
+			<li><a href="">Notificaciones</a></li>
+			<li><a href="">Horarios</a></li>
+			<li><a href="../index.php">Salir</a></li>
+		</ul>
+	</nav>
+	<main class="cuerpoB">
+		<h2>Bienvenid@ <?php echo "$nombre" ?></h2>
+		<div class="tablaCentrar">
